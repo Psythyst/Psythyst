@@ -1,7 +1,8 @@
 mkdir -p ./Publish
+DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-# TODO: Replace all those docker runs... X_X
+DOCKER_VOLUME="$DIRECTORY/Publish:/Publish"
+DOCKER_COMMAND="cp -R /Psythyst/Publish /"
+DOCKER_IMAGE="psythyst/psythyst:latest"
 
-docker run --rm -it psythyst/psythyst:latest cat /Psythyst/Publish/Psythyst.dll > ./Publish/Psythyst.dll
-docker run --rm -it psythyst/psythyst:latest cat /Psythyst/Publish/Psythyst.deps.json > ./Publish/Psythyst.deps.json
-docker run --rm -it psythyst/psythyst:latest cat /Psythyst/Publish/Psythyst.pdb > ./Publish/Psythyst.pdb
+docker run -it --rm -v $DOCKER_VOLUME $DOCKER_IMAGE $DOCKER_COMMAND

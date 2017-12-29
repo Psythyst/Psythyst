@@ -19,7 +19,7 @@
     <Authors>SirMetathyst</Authors>
     <Description>Psythyst CodeGenerator Interface(s)</Description>
     <PackageReleaseNotes></PackageReleaseNotes>
-    <Copyright>Copyright 2017 (c) SirMetathyst.</Copyright>
+    <Copyright>Copyright 2017 (c) Alexander Hunt.</Copyright>
     <PackageTags>CodeGenerator,Psythyst,Interface</PackageTags>
 </PropertyGroup>
 

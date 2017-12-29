@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace T2rkus.Spark
+namespace Psythyst
 {
     /// <summary>
     /// IProjectUnit Interface.

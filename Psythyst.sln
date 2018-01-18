@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Psythyst", "Psythyst\Psythyst.csproj", "{CCBB5C5D-47C5-4387-B485-986B7811521A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Psythyst", "Psythyst\Psythyst\Psythyst.csproj", "{CCBB5C5D-47C5-4387-B485-986B7811521A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

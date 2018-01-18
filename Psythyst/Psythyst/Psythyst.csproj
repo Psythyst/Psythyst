@@ -5,14 +5,14 @@
   </PropertyGroup>
 
 <PropertyGroup>
-  <VersionPrefix>1.0.0</VersionPrefix>
+  <VersionPrefix>1.4.0</VersionPrefix>
   <!--<VersionSuffix>stable</VersionSuffix>-->
 </PropertyGroup>
 
 <PropertyGroup>
     <Title>Psythyst</Title>
     <PackageId>Psythyst</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.4.0</PackageVersion>
     <PackageProjectUrl>https://github.com/Psythyst/Psythyst</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/Psythyst/Psythyst/blob/develop/LICENCE.txt</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/Psythyst/Psythyst</RepositoryUrl>

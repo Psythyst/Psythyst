@@ -12,4 +12,6 @@ if [ -d $BIN_DIR ]; then
     rm -rf $BIN_DIR
 fi
 
-rm $PROTOBUILD_EXE
+if [ -f $PROTOBUILD_EXE ]; then
+    rm -f $PROTOBUILD_EXE
+fi

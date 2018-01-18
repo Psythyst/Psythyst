@@ -86,14 +86,14 @@ Task("Generate-Protobuild-Project")
     .IsDependentOn("Configure-Solution")
     .Does(() => 
 {
-    StartProcess("./Tools/Protobuild.exe", new ProcessSettings{ Arguments = $"--generate {Platform}" });
+    StartProcess("./Protobuild.exe", new ProcessSettings{ Arguments = $"--generate {Platform}" });
 });
 
 Task("Clean-Protobuild-Project")
     .IsDependentOn("Configure-Solution")
     .Does(() => 
 {
-    StartProcess("./Tools/Protobuild.exe", new ProcessSettings{ Arguments = $"--clean {Platform}" });
+    StartProcess("./Protobuild.exe", new ProcessSettings{ Arguments = $"--clean {Platform}" });
 
     var ProjectCollection = GetFiles($"./**/*.{Platform}.csproj");
     var SolutionCollection = GetFiles($"./**/*.{Platform}.sln");

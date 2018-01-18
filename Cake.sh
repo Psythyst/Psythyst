@@ -10,7 +10,7 @@ SCRIPT_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 TOOLS_DIR=$SCRIPT_DIR/Tools
 NUGET_EXE=$TOOLS_DIR/nuget.exe
 CAKE_EXE=$TOOLS_DIR/Cake/Cake.exe
-PROTOBUILD_EXE=$TOOLS_DIR/Protobuild.exe
+PROTOBUILD_EXE=Protobuild.exe
 PACKAGES_CONFIG=$TOOLS_DIR/packages.config
 PACKAGES_CONFIG_MD5=$TOOLS_DIR/packages.config.md5sum
 
